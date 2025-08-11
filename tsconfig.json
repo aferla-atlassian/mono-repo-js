@@ -1,0 +1,1 @@
+{\n  \"files\": [],\n  \"references\": [\n    { \"path\": \"./packages/backend\" },\n    { \"path\": \"./packages/analytics\" },\n    { \"path\": \"./packages/api\" }\n  ]\n}\n

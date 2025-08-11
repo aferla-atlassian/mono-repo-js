@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "baseUrl": "./",
+    "paths": {
+      "@app/backend": ["packages/backend/src/index.ts"],
+      "@app/analytics": ["packages/analytics/src/index.ts"],
+      "@app/api": ["packages/api/src/index.ts"]
+    }
+  }
+}

@@ -1,0 +1,1 @@
+export function generateId(): string {\n  const rnd = Math.random().toString(36).slice(2, 10);\n  const ts = Date.now().toString(36);\n  return `${ts}-${rnd}`;\n}\n

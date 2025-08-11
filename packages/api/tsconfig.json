@@ -1,0 +1,1 @@
+{\n  \"extends\": \"../../tsconfig.base.json\",\n  \"compilerOptions\": {\n    \"rootDir\": \"src\",\n    \"outDir\": \"dist\",\n    \"declaration\": true,\n    \"composite\": true\n  },\n  \"include\": [\"src\"],\n  \"references\": [\n    { \"path\": \"../backend\" },\n    { \"path\": \"../analytics\" }\n  ]\n}\n

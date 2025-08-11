@@ -1,0 +1,1 @@
+{\n  \"name\": \"@app/backend\",\n  \"version\": \"0.1.0\",\n  \"main\": \"dist/index.js\",\n  \"types\": \"dist/index.d.ts\",\n  \"files\": [\"dist\"],\n  \"scripts\": {\n    \"build\": \"tsc -b\",\n    \"clean\": \"rimraf dist\",\n    \"test\": \"node -e \\\"console.log('backend: no tests yet')\\\"\"\n  },\n  \"devDependencies\": {\n    \"@types/node\": \"^20.12.7\"\n  }\n}\n
